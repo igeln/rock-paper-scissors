@@ -1,0 +1,46 @@
+html {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 300px;
+    background-color: #dde9d7;
+    border-radius: 30px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    margin: 18px;
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #395595;
+    color: #fff;
+}
+img.github {
+    height: 24px;
+    width: 24px;
+}
